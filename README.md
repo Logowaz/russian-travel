@@ -29,4 +29,4 @@
 
 * Использован сервис по сжатию изображений
 
-* Ссылка на GitHub Pages:
+* * [Ссылка на GitHub Pages:](https://logowaz.github.io/russian-travel/)
