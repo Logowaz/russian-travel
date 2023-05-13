@@ -10,10 +10,10 @@
 <body class="page">
     <header class="header">
         <img src="./images/header-logo.svg" class="header__logo" alt="логотип России">
-        <div class="header__langs">
-            <a class="header__lang-link header__lang-link_selected" href="#">Ru</a>
-            <a class="header__lang-link" href="#">En</a>
-        </div>
+        <ul class="header__langs">
+            <li><a class="header__lang-link header__lang-link_selected" href="#">Ru</a></li>
+            <li><a class="header__lang-link" href="#">En</a></li>
+        </ul>
     </header>
     <main class="content">
         <section class="lead">
@@ -37,7 +37,7 @@
                 <li>Аэропортов <span class="intro__numbers">241</span></li>
             </ul>
         </section>
-        <section class="photo-grid">
+        <section class="photo-grid" aria-label="показать список красивых мест России">
             <ul class="photo-grid__cards">
                 <li><img src="./images/photo-grid-train.jpg" class="photo-grid__card" alt="фото вида из поезда"></li>
                 <li><img src="./images/photo-grid-atharva-tulsi.jpg" class="photo-grid__card" alt="фото гор с высоты птичьего полёта"></li>
@@ -53,11 +53,11 @@
                 <li><img src="./images/photo-grid-ergaki.jpg" class="photo-grid__card" alt="фото гор в густом тумане"></li>
             </ul>
         </section>
-        <section class="places">
+        <section class="places" aria-label="показать список красивых мест России с описанием и ссылкой на локации">
             <article class="place">
                 <h2 class="place__title">Куршская &nbsp; коса</h2>
                 <div class="place__website">
-                    <p class="place__url-heading">URL</p>
+                    <p class="place__url-heading">url</p>
                     <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
                 </div>
                 <img src="./images/place-kosa.jpg" class="place__image" alt="фото Куршской косы">
